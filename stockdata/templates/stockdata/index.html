@@ -1,0 +1,17 @@
+{% extends 'stockdata/layout.html' %}
+{% block content %}
+<!-- <div class="card danger">
+  <div class="card-content">
+    {{stock.sid}}
+    {{ma_p}}
+    {{ma_c}}
+    {{ma_br}}
+    {{ma_p_cont}}
+  </div>
+</div> -->
+<div class="alert alert-primary">
+  <h1>Bokeh Plot</h1>
+  {{div | safe}}
+</div>
+
+{% endblock %}
